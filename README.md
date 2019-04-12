@@ -39,6 +39,8 @@ npm install -g @angular/cli
 *`Collapsible sidenav`
 *`Hover effects on menu items and dashboard icons `
 
+### Online demo
+[Demo](https://test-webcreek.firebaseapp.com/)
 
 ## Development server
 
