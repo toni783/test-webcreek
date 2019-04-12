@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/variables.sass'
+
+
+//content style
+.content-background
+     background-color: $content-background-color
+
+//sidenav style
+
+.sidenav-background
+    background-color: $sidenav-background-color
+
+.mat-drawer-container
+    height: 100%
+
+.mat-sidenav
+    width: 145px
+    
+.mat-list-item.font-color
+    color: $white-color 
+
+.unactive-menu-item 
+    opacity: 0.75
+    filter: Alpha(opacity=75)
+
+.unactive-menu-item:hover, .active-menu-item 
+    opacity: 1
+    filter: Alpha(opacity=100)
+
+.menu-item-font
+    font-size: 14px !important
+
+.drawer-sidenav
+    width: 11px
+    height: 54px
+    background: $sidenav-background-color
+    position: fixed
+    top: 50%
+
+.drawer-sidenav-inner
+    width: 4px
+    height: 36px
+    background:  $toolbar-background-color
+    position: fixed
+    top: 51.5%
+ 
+.sidenav-padding-top
+    padding-top: 7vh
+
+//toolbar style
+
+.toolbar-background
+    background-color: $toolbar-background-color
+
+
+
+.img-toolbar
+    height: 28px
+    width: 97px
+    margin-top: 11px
+
+.active-button-toolbar
+    color: $yellow-color
+    border-bottom: 4px solid $yellow-color !important
+
+
+.icon-toolbar-size
+    width: 18px
+    height: 18px
+
+.active-icon-margin
+    margin-bottom: 3px
+
+.unactive-icon-margin
+    margin-bottom: 2px
+md-button:hover > md-icon 
+  fill:rgb(255, 255, 255)
+
+.button-toolbar
+    height: 56px
+
+.button-toolbar-text-active
+    height: 63px
+    padding-top: 4px !important
+    
+
+.toolbar-right-content
+    margin-left: auto
+
+.icon-toolbar.mat-icon
+    height: 18px
+    width: 18px
+    margin-right: 8px
+
+.icon-margin
+    margin-bottom: 18px
+    margin-right: 2vw
+
+
+.profile-icon
+    margin-top: 8px
+    -webkit-filter: drop-shadow(2px 2px 0 $yellow-color)  drop-shadow(-2px 2px 0 $yellow-color) drop-shadow(2px -2px 0 $yellow-color)  drop-shadow(-2px -2px 0 $yellow-color)
+    filter: drop-shadow(2px 2px 0 $yellow-color) drop-shadow(-2px 2px 0 $yellow-color)  drop-shadow(2px -2px 0 $yellow-color)  drop-shadow(-2px -2px 0 $yellow-color)
+    height: 46px
+    width: 46px
+    
+.toolbar-margin-left-items
+    margin-left: 4vw
+
+
+
+//general styles
+
+@font-face 
+    font-family: 'RobotoRegular'
+    src: url('./assets/fonts/Roboto-Regular.ttf')
+@font-face 
+    font-family: 'RobotoMedium'
+    src: url('./assets/fonts/Roboto-Medium.ttf')
+    
+
+.font-color
+    color: $white-color 
+
+body
+    overflow: hidden
+    
+*
+    font-family: RobotoMedium
+
+.bottom-spacing
+    margin-bottom: 20vh
+    
